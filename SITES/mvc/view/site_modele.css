@@ -1,0 +1,71 @@
+div.main {
+	width:1200px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+div.head {
+	width:1200px;
+	height:200px;
+	display: table;
+	text-align: center;
+}
+div.menu {
+	width: 1100px;
+	height: 30px;
+	display: table-row;
+	vertical-align: bottom;
+}
+div.menul {
+	width: 250px;
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: left;
+	display: inline-block;
+}
+button {
+	width:200px;
+	height:20px;
+	background: linear-gradient( 
+	  #ccc6c3 0%,
+	  #828c95 24%,
+	  #000000 41%,
+	  #7f7f7f 100%);
+	)
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: white;
+}
+button:hover {
+	text-decoration: none;
+	background-color: white;
+}
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+div.content_div {
+	width: 880px;
+	float: right;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 40px;
+	display: inline-block;
+}
+
+p {
+	text-indent: 20px;
+}
+#centered {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: left;
+}
+body {
+	background-image: radial-gradient(white, black);
+}
