@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Studapart
+		</title>
+		<link rel="stylesheet" type="text/css" href="view/test.css">
+	</head>
+	<body>
+		<span id="morefilter"></span>
+		<div id="topfoot">
+			<div id="footchild">
+				<div style="margin-left:30%;width:1200px">
+				<span id="sitename">Studapart</span>
+				<a href="#" style="background:#33CCFF;margin-left:100px;margin-right:15px">Rechercher</a>ou
+				<a href="#" style="background:#FF6600;margin-left:15px">Publier votre annonce</a>
+				<img src="image/drapeau.png" style="margin-left:30px">
+				<img src="image/coeur.png" style="margin-left:10px">
+				<img src="image/mail.png" style="margin-left:10px">
+				<span style="font-weight:lignter">Timoth&eacute;e</span>
+				<img src="image/tri.png" style="margin-left:10px;margin">
+				</div>
+			</div>
+			<div id="footmenu">
+				<div style="margin-left:30%;width:1200px">
+					<a href="#">Mon profil</a>
+					<a href="#">Mon Messagerie</a>
+					<a href="#">Mes annonces</a>
+					<a href="#">Mes favoris</a>
+					<a href="#">Docs utiles</a>
+					<a href="#">Espace colocation</a>
+					<a href="#">FeedBack</a>
+					<a href="#">D&eacute;connextion</a>
+				</div>
+			</div>
+			</div>
+			<div id="annonce">
+				<form>
+				<div class="filter">
+					<span style="">Localisation</span><input style="width:70%"type="text"><a href="#"><img src="image/location.png"></a><br>
+				</div>
+				<div class="filter">
+					<span style="">Options</span><input style="width:30%"type="text"><a href="#"><img src="image/m2.png"></a><input style="width:30%;margin-right:7.5%" type="text"><a href="#"><img src="image/euro.png"></a><br>
+				</div>
+				<div id="filter2">
+					<span>Type d'annonce</span><div class="checkdiv" style="margin-left:205px"><img src="image/maison.png">Logement entier<input type="checkbox"></div>
+					<div class="checkdiv" style="margin-left:10px"><img src="image/maison.png">Colocation<input type="checkbox"></div>
+					<div class="checkdiv" style="margin-left:10px"><img src="image/maison.png">Chambre chez l'habitant<input type="checkbox"></div>
+				</div>
+				<div class="filter" style="text-align:center">
+					<img src="image/loupe.png">
+					<a href="#morefilter" id="more_lien">Plus de filtres</a>
+				</div>
+				<div id="hidden_fil" class="filter" style="text-align:center">
+					A ajouter...
+				</div>
+				<div class="filter">
+					<button id="annonceurs">Annonceurs&nbsp;<img style="position:relative;top:10px" src="image/poubelle.png"></button>
+				</div>
+				</form>
+				<div id="annoncedetails" style="background:#E5E5E5">
+					<figure>
+						<img src="image/samourai.png">
+						<figcaption>12m<sup>2</sup> - Meubl&eacute; - Ile-de-France<br><span style="font-size:12px">Disponible &agrave; partir du 10/07/2015</span>
+						</figcaption>
+						</figure>
+					<figure>
+						<img src="image/earth.png">
+						<figcaption>200m<sup>2</sup> - Meubl&eacute; - Ile-de-France<br><span style="font-size:12px">Disponible &agrave; partir du 10/07/2015</span>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+	<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
+	<script type="text/javascript" src="https://www.google.fr/jsapi"></script>
+	<script type="text/javascript">
+    	google.load("maps", "3.4", {
+    		other_params: "sensor=false&language=fr"
+    	});
+	</script>
+	<script type="text/javascript" src="bootstrap/js/jquery.googlemap.js"></script>
+	<script type="text/javascript" src="bootstrap/js/script.js"></script>
+	<script type="text/javascript" sec="bootstrap/js/bootstrap.js"></script>
+	<div id="map"></div>
+	<script type="text/javascript">
+	  $(function() {
+	  	$('#map').click(function)
+  });
+	</script>
+	</body>
+</html>
